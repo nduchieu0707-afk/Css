@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <head>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            header {
+                position: sticky;
+                top: 0;
+                width: 100%;
+            }
+            nav a {
+                float: left;
+                width: 20%;
+                text-align: center;
+                font-size: 36px;
+                color: white;
+                padding: 12px 0;
+                background-color: #555;
+            }
+            .icon-bar a:hover {
+                background-color: #000;
+            }
+            .Background {
+                background-color: #04AA6D;
+            }
+            .Vertical {
+                width: 90px;
+            }
+            .Vertical a {
+                display: block;
+                text-align: center;
+                align-items: center;
+                font-size: 36px;
+                color: white;
+                background-color: #555;
+                padding: 16px;
+            }
+            .Vertical a.Background2 {
+                background: #04AA6D;
+            }
+            .Vertical a:hover {
+                background-color: #000;
+            }
+        </style>
+    </head>
+        <body>
+            <h2>My Header</h2>
+            <p>Horizontal:</p>
+            <header class="icon-bar">
+                <nav>
+                    <a class="Background" href="#"><i class="fa fa-home"></i></a> 
+                    <a href="#"><i class="fa fa-search"></i></a> 
+                    <a href="#"><i class="fa fa-envelope"></i></a> 
+                    <a href="#"><i class="fa fa-globe"></i></a>
+                    <a href="#"><i class="fa fa-trash"></i></a> 
+                </nav>
+            </header>
+            <p>Vertical:</p>
+            <div class="Vertical">
+                <a class="Background2" href="#"><i class="fa fa-home"></i></a> 
+                <a href="#"><i class="fa fa-search"></i></a> 
+                <a href="#"><i class="fa fa-envelope"></i></a> 
+                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="#"><i class="fa fa-trash"></i></a> 
+            </div>
+        </body>
+</html>
